@@ -1,0 +1,68 @@
+.p-bg {
+    background: #091AE1;
+}
+.s-bg {
+    background: #E5E8FF;
+}
+.p-text {
+    color: #091AE1;
+    font-weight: 600;
+}
+
+.p-btn {
+    background: #091AE1;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.p-btn-light {
+    background: rgba(107, 105, 121, 0.5);
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.b-r {
+    border-right: none;
+}
+
+.b-l {
+    border-left: none;
+}
+
+.bg-smoke {
+    background: rgba(249, 249, 249, 0.8);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.accordion {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active{
+    background-color: #091AE1; 
+    color: #fff;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  
