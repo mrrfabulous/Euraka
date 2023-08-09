@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eureka</title>
-   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">    
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
    <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -116,7 +118,7 @@
 	  	  </div>
       </section>
 
-      <section class=" text-light s-bg">
+      <section class=" text-light s-bg mt-5">
         <div class="container py-5 text-center">
           <h3 class="p-text my-2">
             Our Most popular Subject
@@ -167,30 +169,33 @@
         <h3 class="p-text text-center mt-5">
           Our achievements
         </h3>
-        <div class="container-fluid pb-5 mb-5 text-center d-sm-flex align-items-start justify-content-between">
-          <div class="col-md-4"><img src="images/scholar.png" class="img-fluid"></div>
-          <div class="container p-5">
-            <div class="row g-5">
-              <div class="col-md-6 ">
+        <div class="container-fluid pb-5 mb-5 text-center d-sm-flex align-items-start justify-content-between position-relative">
+          <div class="col-md-4 d-none d-md-block position-relative">
+            <div class="box p-bg position-absolute bottom-50" style="width:65%; height: 20%; z-index: -1;"> </div>
+            <img src="images/scholar.png" class="img-fluid "></div>
+          <div class="container-fluid p-0 py-5 " style="transform: translateX(-2em); ">
+            <div class="row container-fluid">
+              <div class="col-sm-6">
                 <h2><strong>2555+</strong></h2>
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Graudation Completed</p>
               </div>
-              <div class="col-md-6">
-                <h2><strong>2555+</strong></h2>
-                <p>Lorem ipsum dolor sit.</p>
+              <div class="col-sm-6">
+                <h2><strong>5000+</strong></h2>
+                <p> Total Student</p>
               </div>              
             </div>
-            <div class="row g-5 py-5">
-              <div class="col-md-6">
-                <h2><strong>2555+</strong></h2>
-                <p>Lorem ipsum dolor sit.</p>
+            <div class="row p-0 py-5 container-fluid">
+              <div class="col-sm-6">
+                <h2><strong>255+</strong></h2>
+                <p>Total COurses</p>
               </div>
-              <div class="col-md-6">
-                <h2><strong>2555+</strong></h2>
-                <p>Lorem ipsum dolor sit.</p>
+              <div class="col-sm-6">
+                <h2><strong>5342+</strong></h2>
+                <p>Global Position</p>
               </div>              
             </div>
           </div>
+          <div class="p-bg position-absolute d-none d-md-block " style="width: 90%; height: 30%; z-index: -1; bottom: 3em; right: 0; "></div>
           </div>
       </section>
 
@@ -202,11 +207,11 @@
             Why Eureka is the best 
           </h3>
           <div class="container my-5">
-            <div class="row">
+            <div class="row g-2">
               
               <div class="col-sm-6 bg-smoke p-5 d-flex align-items-start justify-content-between ">
-                <button type="button" class="btn btn-sm btn-primary p-bg rounded-circle " style="width: 3rem; height:2rem;">1 </button>
-                
+                <!-- <button type="button" class="btn btn-sm btn-primary p-bg rounded-circle " style="width: 3rem; height:2rem;">1 </button> -->
+                <span class="btn btn-sm btn-primary p-bg rounded-circle bold"> 1 </span>
                 <div class="mx-3" style="text-align: left;"><h3><strong> Choose your own category</strong></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit, numquam recusandae ducimus deleniti hic.</p>
                 </div>
@@ -214,7 +219,7 @@
 
               
               <div class="col-sm-6 bg-light p-5 d-flex align-items-start justify-content-between ">
-                <button type="button" class="btn btn-sm btn-primary p-bg rounded-circle " style="width: 3rem; height:2rem;">2 </button>
+                <span class="btn btn-sm btn-primary p-bg rounded-circle bold"> 2 </span>
                 
                 <div class="mx-3" style="text-align: left;"><h3><strong> Select the preferrable subject</strong></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit, numquam recusandae ducimus deleniti hic.</p>
@@ -223,19 +228,17 @@
 
             </div>
 
-            <div class="row">
+            <div class="row g-2 g-sm-0">
               
               <div class="col-sm-6 bg-light p-5 d-flex align-items-start justify-content-between ">
-                <button type="button" class="btn btn-sm btn-primary p-bg rounded-circle " style="width: 3rem; height:2rem;">3</button>
-                
+                <span class="btn btn-sm btn-primary p-bg rounded-circle bold"> 3 </span>                
                 <div class="mx-3" style="text-align: left;"><h3><strong> Attend the examination </strong></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit, numquam recusandae ducimus deleniti hic.</p>
                 </div>
               </div>
 
               <div class="col-sm-6 bg-smoke p-5 d-flex align-items-start justify-content-between " style="background:smoke;">
-                <button type="button" class="btn btn-sm btn-primary p-bg rounded-circle " style="width: 3rem; height:2rem;">4 </button>
-                
+                <span class="btn btn-sm btn-primary p-bg rounded-circle bold"> 4 </span>                
                 <div class="mx-3" style="text-align: left;"><h3><strong> Get your result fast</strong></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit, numquam recusandae ducimus deleniti hic.</p>
                 </div>
@@ -251,8 +254,8 @@
       <section class="py-3">
         <div class="container py-5">
           <h3 class="p-text text-center mb-5 bolder">What our client's say about us </h3>          
-            <div class="row py-2">
-              <div class="col-sm-4">
+            <div class="row py-2 g-3 g-lg-2">
+              <div class="col-sm-6 col-lg-3">
                 <div class="card p-3">
                   <div class="p-2 bold">Great Platform </div>
                   <div class="card-body">
@@ -276,7 +279,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-lg-3">
                 <div class="card p-3">
                   <div class="p-2 bold">Great Platform </div>
                   <div class="card-body">
@@ -300,7 +303,31 @@
                 </div>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-lg-3">
+                <div class="card p-3">
+                  <div class="p-2 bold">Great Platform </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicinnbg elit. Dicta, est.</p>
+                    <div class="d-flex align-items-center justify-content-start ">
+                      <img src="images/Ellipse 11.png" alt="" class="img-lluid">
+                      <div style="width: min-width: 50%;padding: 1rem;">
+                      <div class="d-flex align-items-center justify-content-between ">
+                        <i>x </i>
+                        <i> x </i>
+                        <i>x</i>
+                        <i>x</i>
+                        <i>x</i>
+                        
+                      </div>
+                      <p class="bold">Joseph</p>
+                    </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-3">
                 <div class="card p-3">
                   <div class="p-2 bold">Great Platform </div>
                   <div class="card-body">
@@ -328,7 +355,8 @@
           </div>
       </section>
 
-      <section id="FAQ" class="s-bg">
+      <section id="FAQ" class="s-bg"> 
+        
         <div class="container py-5">   
           <h3 class="p-text text-center mb-5 pb-3 bold "> Frequently Asked Questions </h3>     
         <div class="container bg-light p-3 m-3">
@@ -373,7 +401,25 @@
 
       </section>
 
+     <footer class="p-bg container-fluid text-center p-5">
+      <img src="images/logo.png" class=" mt-4">
+      <p class="p-md-5 text-light"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam iure, aliquid harum laboriosam velit repellat sapiente officiis fugit quo? Minus eveniet est architecto aspernatur optio placeat totam aliquid nihil, doloremque perferendis veritatis sunt molestias, quas maiores vero accusantium! Illo, reiciendis.</p>
+      <div class="icons container px-5">
+        <hr class="text-light">
 
+        <u class="text-center text-light">
+          &copy 2023 Educational All Right Reserved | Powered By Atarfix
+        </u>
+        <div class=" container align-items-center justify-content-between text-light  " style="font-size:24px" >
+          <!-- <i class="fa fa-heart-o text-light" style="font-size:24px"> </i> -->
+          <i class="bi bi-facebook "></i>
+          <i class="bi bi-instagram mx-2"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+
+      </div>
+
+     </footer>
            
 
 
