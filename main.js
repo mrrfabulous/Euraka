@@ -1,6 +1,6 @@
 
 
-let size = 1; // Initial size value
+let size = 1; 
 
 function updateSize() {
   const windowWidth = window.innerWidth;
@@ -17,14 +17,13 @@ function updateSize() {
     size = 4;
   }
 
-  // Perform any other actions based on the updated size value here
-  console.log(`Size updated to: ${size}`);
+ 
 }
 
-// Attach the 'resize' event listener to the window
+
 window.addEventListener('resize', updateSize);
 
-// Initial call to updateSize to set the initial size based on the initial window width
+
 updateSize();
 
 

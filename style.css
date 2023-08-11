@@ -96,7 +96,10 @@
     background-size: cover;
   }
   
-  .btn-prev {
-    transform: translateX(-);
+  .btn-prev,
+  .btn-next {
+       
+    color: #091AE1;
+    
   }
   
