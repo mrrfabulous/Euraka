@@ -5,16 +5,17 @@ let size = 1;
 function updateSize() {
   const windowWidth = window.innerWidth;
 
-  if (windowWidth < 320) {
+  if (windowWidth < 420) {
     size = 1;
-  } else if (windowWidth < 500) {
+  } else if (windowWidth < 720) {
     size = 2;
-  } else if (windowWidth < 780) {
-    size = 2;
-  } else if (windowWidth < 900) {
+  } else if (windowWidth < 960) {
     size = 3;
-  } else if (windowWidth > 1000) {
+  } else if (windowWidth < 1200) {
     size = 4;
+  }
+  else if (windowWidth > 1200) {
+    size = 5;
   }
 
  

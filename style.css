@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 .p-bg {
     background: #091AE1;
 }
@@ -101,5 +107,31 @@
        
     color: #091AE1;
     
+  }
+
+
+
+
+
+  @media (max-width: 991.98px) {
+    #navmenu {
+      display: flex;
+      justify-content: start;
+      align-items: end;
+      padding: 2em;
+      width: max(60%);
+    }
+    
+    #navmenu .navbar-nav{
+      width: 100%;
+      margin: 0 0 4em 0;
+      justify-content: space-between;
+    }
+    #navmenu .navbar-nav .nav-item a{
+      color: #091AE1;
+      font-weight: 600;
+    }
+
+
   }
   

@@ -11,13 +11,14 @@
    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark p-bg">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-bg">
       <div class="container my-1">
         <img src="images/logo.png" class="navbar-brand">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navmenu"  aria-controls="offcanvasResponsive">
          <span class="navbar-toggler-icon"></span> 
         </button>
-        <div class="collapse navbar-collapse" id="navmenu">
+        <div class="offcanvas-lg offcanvas-start navbar-collapse s-bg" id="navmenu" tabindex="-1" aria-labelledby="offcanvasResponsiveLabel" data-bs-scroll="true">
+          <button type="button" class="btn-close navbar-toggler" data-bs-dismiss="offcanvas" data-bs-target="#navmenu" aria-label="Close"></button>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="#" class="nav-link">About</a>
@@ -48,17 +49,17 @@
               <a href="#" class="nav-link">Login</a>
             </li>
              <li class="nav-item">
-              <button class="btn btn-light" type="button">Register</button>
+              <button class="btn btn-outline-primary btn-light bold" type="button">Register</button>
             </li>
 
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ENG 
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">ENg</a></li>
-            <li><a class="dropdown-item" href="#">Fra</a></li>
-            <li><a class="dropdown-item" href="#"> Spa</a></li>
+          <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">ENG</a></li>
+            <li><a class="dropdown-item" href="#">FRA</a></li>
+            <li><a class="dropdown-item" href="#"> SPN</a></li>
           </ul>
         </li>
         </ul>
@@ -69,8 +70,8 @@
      </nav>
 
 
-  	<div class="container-fluid p-bg text-light pf-2 text-center p-5">
-      <div class="container">        
+  	<div class="container-fluid p-bg text-light pf-2 text-center p-5 mt-5">
+      <div class="container mt-4 mt-lg-5 ">        
       <img src="images/home.png" class="rounded-pill img-fluid" alt="">
       <h1 class="my-3"> Eureka!!! Rewarding Academic Excellence</h1>
       <p> We will open the world of knowledge for you </p>
@@ -222,8 +223,8 @@
           <div class="col-md-4 d-none d-md-block position-relative">
             <div class="box p-bg position-absolute bottom-50" style="width:65%; height: 20%; z-index: -1;"> </div>
             <img src="images/scholar.png" class="img-fluid "></div>
-          <div class="container-fluid p-0 py-5 " style="transform: translateX(-2em); ">
-            <div class="row container-fluid">
+          <div class="container-fluid py-5 " >
+            <div class="row container-fluid g-5 m-2 border ">
               <div class="col-sm-6">
                 <h2><strong>2555+</strong></h2>
                 <p>Graudation Completed</p>
@@ -233,7 +234,7 @@
                 <p> Total Student</p>
               </div>              
             </div>
-            <div class="row p-0 py-5 container-fluid">
+            <div class="row g-5 container-fluid m-2 border">
               <div class="col-sm-6">
                 <h2><strong>255+</strong></h2>
                 <p>Total COurses</p>
@@ -310,14 +311,14 @@
                   <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicinbg ejlit. Dicta, est.</p>
                     <div class="d-flex align-items-center justify-content-start ">
-                      <img src="images/Ellipse 11.png" alt="" class="img-fluid rounded-circle ">
+                      <img src="images/chem.png" alt="" class="img-fluid rounded-circle " style="width: 60px; height: 60px;">
                       <div style="width: fit-content;padding: 1rem;">
                       <div class="d-flex align-items-center justify-content-between ">
-                        <i>x </i>
-                        <i> x </i>
-                        <i>x</i>
-                        <i>x</i>
-                        <i>x</i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
                         
                       </div>
                       <p class="bold">Joseph</p>
@@ -334,14 +335,14 @@
                   <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicinnbg elit. Dicta, est.</p>
                     <div class="d-flex align-items-center justify-content-start ">
-                      <img src="images/Ellipse 11.png" alt="" class="img-lluid">
-                      <div style="width: min-width: 50%;padding: 1rem;">
+                      <img src="images/Math.png" alt="" class="img-fluid rounded-circle " style="width: 60px; height: 60px;">
+                      <div style="min-width: 50%;padding: 1rem;">
                       <div class="d-flex align-items-center justify-content-between ">
-                        <i>x </i>
-                        <i> x </i>
-                        <i>x</i>
-                        <i>x</i>
-                        <i>x</i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
                         
                       </div>
                       <p class="bold">Joseph</p>
@@ -358,14 +359,14 @@
                   <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicinnbg elit. Dicta, est.</p>
                     <div class="d-flex align-items-center justify-content-start ">
-                      <img src="images/Ellipse 11.png" alt="" class="img-lluid">
-                      <div style="width: min-width: 50%;padding: 1rem;">
+                      <img src="images/chem.png" alt="" class="img-fluid rounded-circle " style="width: 60px; height: 60px;">
+                      <div style="min-width: 50%;padding: 1rem;">
                       <div class="d-flex align-items-center justify-content-between ">
-                        <i>x </i>
-                        <i> x </i>
-                        <i>x</i>
-                        <i>x</i>
-                        <i>x</i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
                         
                       </div>
                       <p class="bold">Joseph</p>
@@ -382,14 +383,15 @@
                   <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicinnbg elit. Dicta, est.</p>
                     <div class="d-flex align-items-center justify-content-start ">
-                      <img src="images/Ellipse 11.png" alt="" class="img-lluid">
-                      <div style="width: min-width: 50%;padding: 1rem;">
+                      <img src="images/English.png" alt="" class="img-fluid rounded-circle " style="width: 60px; height: 60px;">
+                      <div style="min-width: 50%;padding: 1rem;">
                       <div class="d-flex align-items-center justify-content-between ">
-                        <i>x </i>
-                        <i> x </i>
-                        <i>x</i>
-                        <i>x</i>
-                        <i>x</i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        <i class="bi bi-star-fill" style="color: gold;"></i>
+                        
                         
                       </div>
                       <p class="bold">Joseph</p>
