@@ -78,10 +78,11 @@
   }
 
   .s-card{
-    height: 300px;
+    height: 250px;
     background: #fff;
     border-radius: 10px;
     padding: 10px;
+    margin: 0;
   }
 
   .s-card-image {
@@ -131,5 +132,24 @@
     }
 
 
+
   }
   
+
+  @media (max-width: 780px) {
+    .s-card{
+      height: 300px;
+      
+    }
+
+
+  }
+
+  @media (max-width: 480px) {
+    .s-card{
+      height: 350px;
+      
+    }
+
+
+  }
