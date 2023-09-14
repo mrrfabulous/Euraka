@@ -1,50 +1,50 @@
 
 
-let size = 1; 
+// let size = 1; 
 
-function updateSize() {
-  const windowWidth = window.innerWidth;
+// function updateSize() {
+//   const windowWidth = window.innerWidth;
 
-  if (windowWidth < 420) {
-    size = 1;
-  } else if (windowWidth < 720) {
-    size = 2;
-  } else if (windowWidth < 960) {
-    size = 3;
-  } else if (windowWidth < 1200) {
-    size = 4;
-  }
-  else if (windowWidth > 1200) {
-    size = 5;
-  }
+//   if (windowWidth < 420) {
+//     size = 1;
+//   } else if (windowWidth < 720) {
+//     size = 2;
+//   } else if (windowWidth < 960) {
+//     size = 3;
+//   } else if (windowWidth < 1200) {
+//     size = 4;
+//   }
+//   else if (windowWidth > 1200) {
+//     size = 5;
+//   }
 
  
-}
+// }
 
 
-window.addEventListener('resize', updateSize);
+// window.addEventListener('resize', updateSize);
 
 
-updateSize();
+// updateSize();
 
 
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: size,
-  centeredSlides: false,
-  spaceBetween: 30,
-  loop: true,
-  fade: 'true',
-  grabCursor: 'true',
-  pagination: {
-    el: ".swiper-pagination",
-        clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+// var swiper = new Swiper(".mySwiper", {
+//   slidesPerView: size,
+//   centeredSlides: false,
+//   spaceBetween: 30,
+//   loop: true,
+//   fade: 'true',
+//   grabCursor: 'true',
+//   pagination: {
+//     el: ".swiper-pagination",
+//         clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 
 
 
@@ -72,3 +72,31 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+
+
+
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:20,
+autoplay: true,
+nav: true,
+dots: true,
+autoplayTimeout: 3500,
+responsive:{
+0:{
+  items:1
+},
+500:{
+  items:2
+},
+780:{
+  items:3
+},
+1000:{
+  items:4
+},
+1200:{
+  items:5
+},
+}
+})
