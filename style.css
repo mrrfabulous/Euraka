@@ -119,6 +119,7 @@
       align-items: end;
       padding: 2em;
       width: max(60%);
+      background: #000;
     }
     
     #navmenu .navbar-nav{
