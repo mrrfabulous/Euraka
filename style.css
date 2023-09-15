@@ -110,13 +110,32 @@
   cursor: pointer;
 }
 
+.menu-logo{
+  display: none;
+}
 
+.btn-close {
+  background: white;
+  color: #000;
+  font-weight: 600;
+  border: 3px solid white;
+  position: absolute;
+  right: 5%;
+  opacity: 0.8;
+  padding: 0.2em;
+}
+
+.btn-close:hover {
+  opacity: 1;
+  color: #fff;
+  background: none;
+}
 
   @media (max-width: 991.98px) {
     #navmenu {
       display: flex;
       justify-content: start;
-      align-items: end;
+      align-items: start;
       padding: 2em;
       width: max(60%);
       background: #000;
@@ -128,8 +147,20 @@
       justify-content: space-between;
     }
     #navmenu .navbar-nav .nav-item a{
-      color: #091AE1;
+      color: #fff;
       font-weight: 600;
+    }
+
+    #navmenu .navbar-nav .nav-item a:hover{
+      background: #535455;
+      padding-left: 10px;
+      text-align: center;
+      /* transform: translateX(1em); */
+    }
+
+    .menu-logo{
+      display: block;
+      margin: 1em 0;
     }
 
 
